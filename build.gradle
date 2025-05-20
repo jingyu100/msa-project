@@ -1,0 +1,15 @@
+// 루트 프로젝트 공통 설정
+plugins {
+    id 'java'
+}
+
+allprojects {
+    repositories {
+        mavenCentral()
+    }
+}
+
+// 하위 프로젝트 공통 설정은 여기에 추가
+subprojects {
+    // 공통으로 적용할 내용이 있다면 여기에 추가
+}
